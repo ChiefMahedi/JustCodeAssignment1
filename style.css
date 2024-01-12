@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Header Section*/
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.header {
+  width: 1300px;
+  display: flex;
+}
+.logo-section {
+  width: 195px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+.logo-title {
+  color: #0f2137;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family:  DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 14px;
+}
+.nav1 {
+  width: 502px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 355px;
+}
+.nav1 h2 {
+  color: #02073e;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 206.25% */
+}
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav2 .login {
+  color: #02073e;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; 
+  padding-right: 46px;
+}
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.get-started-section {
+    display: flex;
+    flex-direction: column;
+}
+.get-started-section h2{
+    color: #DB4A87;
+    text-align: right;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px; 
+    padding-top: 3.2px;
+}
+/*Header section end*/
