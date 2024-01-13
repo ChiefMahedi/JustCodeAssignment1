@@ -483,3 +483,53 @@ body {
   line-height: 42px; /* 262.5% */
   padding-right: 7px;
 }
+/* Ultimate features end*/
+
+/* Customer section*/
+.customer {
+  display: flex;
+  width: 1300px;
+  justify-content: center;
+  align-items: center;
+}
+.customer-right-side-title {
+  color: #0f2137;
+  font-family: Crimson Text;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 125% */
+  letter-spacing: -1px;
+  width: 478px;
+  margin-bottom: 37px;
+}
+.customer-right-side-desc {
+  color: #02073e;
+  font-family: DM Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px; /* 247.059% */
+  margin-bottom: 20px;
+}
+.customer-right-side .learn-more-btn img{
+  display: block;
+}
+.customer-right-side .learn-more-btn {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.customer-right-side .learn-more-btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #3183ff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 42px; /* 262.5% */
+  padding-right: 7px;
+}
