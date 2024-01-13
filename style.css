@@ -512,7 +512,7 @@ body {
   line-height: 42px; /* 247.059% */
   margin-bottom: 20px;
 }
-.customer-right-side .learn-more-btn img{
+.customer-right-side .learn-more-btn img {
   display: block;
 }
 .customer-right-side .learn-more-btn {
@@ -533,3 +533,63 @@ body {
   line-height: 42px; /* 262.5% */
   padding-right: 7px;
 }
+/* Customer section end*/
+
+/*Blog section*/
+.blog-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1290px;
+  margin-top: 140px;
+  margin-bottom: 142px;
+}
+.blog-section-items {
+  display: flex;
+  justify-content: space-between;
+}
+.blog-section-title {
+  color: #0f2137;
+  text-align: center;
+  font-family: Crimson Text;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px; /* 125% */
+  letter-spacing: -1px;
+}
+.blog-section-desc {
+  color: #0f2137;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 218.75% */
+  width: 583px;
+  margin-top: 20px;
+  margin-bottom: 67px;
+}
+.blog-title {
+  color: #0f2137;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+.blog-comment {
+  display: flex;
+}
+.blog-comment-number {
+  color: #343d48;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  padding-left: 5px;
+}
+/*Blog section end*/
